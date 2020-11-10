@@ -78,7 +78,7 @@ function createUsers() {
 //filtra el arrayUsuarios y devuelve un array con los usuarios spain y cuyo salario mas de 200
 function filterUsers(arrayUsuarios) {
   let usuariosFiltados = [];
-  for (var i = 0; i < arrayUsuarios.length; i++) {
+  for (let i = 0; i < arrayUsuarios.length; i++) {
     if (arrayUsuarios[i].country == "spain" && arrayUsuarios[i].money > 200) {
       usuariosFiltados.push(arrayUsuarios[i]);
     }
